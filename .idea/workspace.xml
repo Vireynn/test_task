@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6d55627-2bf9-41f7-ad52-388679da732f" name="Changes" comment="update: database session dependency">
-      <change afterPath="$PROJECT_DIR$/ads/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e6d55627-2bf9-41f7-ad52-388679da732f" name="Changes" comment="add: adverts router file">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ads/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ads/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719790096296</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add: adverts router file">
+      <option name="closed" value="true" />
+      <created>1719790509454</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719790509454</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +163,7 @@
     <MESSAGE value="update: refactor" />
     <MESSAGE value="add: crud operations file" />
     <MESSAGE value="update: database session dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: database session dependency" />
+    <MESSAGE value="add: adverts router file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: adverts router file" />
   </component>
 </project>
