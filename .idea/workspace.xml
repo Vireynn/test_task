@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6d55627-2bf9-41f7-ad52-388679da732f" name="Changes" comment="update: refactor">
-      <change afterPath="$PROJECT_DIR$/ads/crud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test_task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_task.iml" afterDir="false" />
+    <list default="true" id="e6d55627-2bf9-41f7-ad52-388679da732f" name="Changes" comment="update: database session dependency">
+      <change afterPath="$PROJECT_DIR$/ads/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +116,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719785849863</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add: crud operations file">
+      <option name="closed" value="true" />
+      <created>1719789713524</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719789713524</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update: database session dependency">
+      <option name="closed" value="true" />
+      <created>1719790096296</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719790096296</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +153,8 @@
     <MESSAGE value="add: models file (Advertisement database model)" />
     <MESSAGE value="add: adverts schemas" />
     <MESSAGE value="update: refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: refactor" />
+    <MESSAGE value="add: crud operations file" />
+    <MESSAGE value="update: database session dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: database session dependency" />
   </component>
 </project>
