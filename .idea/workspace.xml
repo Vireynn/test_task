@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6d55627-2bf9-41f7-ad52-388679da732f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/test_task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/database.py" afterDir="false" />
+    <list default="true" id="e6d55627-2bf9-41f7-ad52-388679da732f" name="Changes" comment="add: main file with general app">
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ads/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ads/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,21 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Vireynn"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Vireynn&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Vireynn/test_task.git",
-    "accountId": "57d65da9-5fbc-46a7-a996-4099b82e40fc"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Vireynn/test_task.git&quot;,
+    &quot;accountId&quot;: &quot;57d65da9-5fbc-46a7-a996-4099b82e40fc&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2icEAjuI0BOhRzpdvbSjks30I3I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,11 +48,71 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.routes.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "D:/Vireynn/Python/Projects/test_task",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Vireynn\Python\Projects\test_task" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_task" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="routes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_task" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ads" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ads/routes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.routes" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,6 +129,87 @@
       <option name="presentableId" value="Default" />
       <updated>1719781324084</updated>
     </task>
+    <task id="LOCAL-00001" summary="init: project init">
+      <option name="closed" value="true" />
+      <created>1719783648255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719783648255</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add: models/database created">
+      <option name="closed" value="true" />
+      <created>1719783806290</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719783806290</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add: config file">
+      <option name="closed" value="true" />
+      <created>1719784607291</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719784607291</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add: models file (Advertisement database model)">
+      <option name="closed" value="true" />
+      <created>1719784919447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719784919447</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add: adverts schemas">
+      <option name="closed" value="true" />
+      <created>1719785323249</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719785323249</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update: refactor">
+      <option name="closed" value="true" />
+      <created>1719785849863</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719785849863</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add: crud operations file">
+      <option name="closed" value="true" />
+      <created>1719789713524</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719789713524</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update: database session dependency">
+      <option name="closed" value="true" />
+      <created>1719790096296</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719790096296</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add: adverts router file">
+      <option name="closed" value="true" />
+      <created>1719790509454</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719790509454</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add: main file with general app">
+      <option name="closed" value="true" />
+      <created>1719790862305</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719790862305</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,5 +222,18 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init: project init" />
+    <MESSAGE value="add: models/database created" />
+    <MESSAGE value="add: config file" />
+    <MESSAGE value="add: models file (Advertisement database model)" />
+    <MESSAGE value="add: adverts schemas" />
+    <MESSAGE value="update: refactor" />
+    <MESSAGE value="add: crud operations file" />
+    <MESSAGE value="update: database session dependency" />
+    <MESSAGE value="add: adverts router file" />
+    <MESSAGE value="add: main file with general app" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: main file with general app" />
   </component>
 </project>
