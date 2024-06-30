@@ -18,12 +18,12 @@ async def get_advert_by_id(
         return advert
 
 
-@router.get("/", response_model=list(Advert))
+@router.get("/", response_model=list[AdvertCreate])
 async def get_all_adverts(session: AsyncSession = Depends(db_helper.session_dependency)):
     return await advert_query_set.get_adverts(session=session)
 
 
-@router.get("/", response_model=AdvertCreate)
+@router.post("/", response_model=AdvertCreate)
 async def create_advert(
         advert_in: AdvertCreate,
         session: AsyncSession = Depends(db_helper.session_dependency)

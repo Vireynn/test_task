@@ -16,4 +16,4 @@ app = FastAPI()
 app.include_router(router=advert_router, prefix="/adverts")
 
 if __name__ == "__main__":
-    uvicorn.run()
+    uvicorn.run("main:app", reload=True)
