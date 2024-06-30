@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6d55627-2bf9-41f7-ad52-388679da732f" name="Changes" comment="add: models file (Advertisement database model)">
-      <change afterPath="$PROJECT_DIR$/ads/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ads/schemas.py" afterDir="false" />
+    <list default="true" id="e6d55627-2bf9-41f7-ad52-388679da732f" name="Changes" comment="add: adverts schemas">
+      <change afterPath="$PROJECT_DIR$/ads/crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719784919447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add: adverts schemas">
+      <option name="closed" value="true" />
+      <created>1719785323249</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719785323249</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +127,7 @@
     <MESSAGE value="add: models/database created" />
     <MESSAGE value="add: config file" />
     <MESSAGE value="add: models file (Advertisement database model)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: models file (Advertisement database model)" />
+    <MESSAGE value="add: adverts schemas" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: adverts schemas" />
   </component>
 </project>

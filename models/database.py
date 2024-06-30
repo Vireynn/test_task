@@ -1,4 +1,5 @@
 from asyncio import current_task
+from .config import config
 
 from sqlalchemy.ext.asyncio import (
     create_async_engine,
@@ -25,3 +26,8 @@ class DatabaseHelper:
             autocommit=False,
             expire_on_commit=False,
         )
+
+db_helper = DatabaseHelper(
+    url=config.db_url,
+    echo=config.db_echo
+)
